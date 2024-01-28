@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import { createElement } from 'react';
+import React from 'react';
+import Navbar from './Components/navbar.js'
 
 function App() {
   return (
     <div>
-      {}
+      <Navbar />
     </div>
   );
 }
