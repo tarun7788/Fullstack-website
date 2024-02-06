@@ -5,8 +5,13 @@ import '../CSS/navbar.css';
 function Navbar(){
     return (
         <div className='Navbar'>
-            
-        </div>
+          <div className='items'>
+              <a href='#'>Home</a>
+              <a href='#'>Home</a>
+              <a href='#'>Home</a>
+              <a href='#'>Home</a>
+            </div>
+          </div>
       );
 }
 export default Navbar;
