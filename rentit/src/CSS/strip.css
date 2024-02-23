@@ -1,0 +1,13 @@
+.logodisplay{
+    margin-top: 50px;
+    margin-bottom:30px;
+    display: inline-block;
+    margin-left: 140px;
+}
+.logodisplay a{
+    margin-left:40px;
+}
+.logodisplay a img{
+    height: 120px;
+    width: 160px;
+}

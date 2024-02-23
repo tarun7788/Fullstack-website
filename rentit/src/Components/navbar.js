@@ -10,8 +10,8 @@ function Navbar(){
             <div>
               <a href='#'> <img src=''></img> </a>
               <a href='#'> Home </a>
-              <a href='#'> Contact Us </a>
-              <a href='#'> About Us </a>
+              <a href='#'> Contact-Us </a>
+              <a href='#'> About-Us </a>
               <a href='#'> Orders </a>
             </div>
             <div>
