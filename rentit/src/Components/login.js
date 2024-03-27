@@ -10,7 +10,7 @@ const Login=()=>{
         <input placeholder=" Enter Your User Name ..."/>
         <input placeholder=" Password "/>
         <button type="Submit">Submit</button>
-        <h1>Heloo bhii dikhara hu kya ??</h1>
+        
     </div>
     )
     
