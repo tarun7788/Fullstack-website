@@ -1,29 +1,27 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client';
 import '../CSS/navbar.css';
 import { FaCartPlus } from "react-icons/fa";
+import { Outlet,Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-
-function Navbar(){
+const Navbar=()=>{
     return (
         <div className='navbar'>
             <div>
-              <a href='#'> <img src=''></img> </a>
-              <a href='#'> Home </a>
-              <a href='#'> Contact-Us </a>
-              <a href='#'> About-Us </a>
-              <a href='#'> Orders </a>
+              < NavLink to="/"> Home </NavLink>
+              < NavLink to="/"> About-Us </NavLink>
+              < NavLink to="/"> Orders </NavLink>
             </div>
             <div>
-              <a href='#'> SignUp </a>
+              < NavLink to="/"> SignUp </NavLink>
               <span> | </span>
-              <a href='#'> SignIn </a>
+              <NavLink to="/login"> SignIn </NavLink>
               <span> | </span>
-              <a href='#'><FaCartPlus /></a>
+              < NavLink to="/"><FaCartPlus /></NavLink>
               <span> </span>
             </div>
             <div>
-            <a href='./'> <img src={require('../images/logo.png')} height={35}/></a>
+            < NavLink href='./'> <img src={require('../images/logo.png')} height={35}/></NavLink>
             </div>
           </div>
       );

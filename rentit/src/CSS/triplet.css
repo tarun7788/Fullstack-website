@@ -1,0 +1,71 @@
+
+.Maintrip{
+    display: flex;
+    position: relative;
+}
+.first{
+    width:60%;
+    margin-left: -8px;
+}
+#one{
+    width: 517px;
+}
+.first .details .images{
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.first .details{
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+    z-index:8;
+    position: absolute;
+}
+.first .details img:hover{
+    cursor: pointer;
+    background-color:rgba(245, 178, 178, 0.7) ;
+}
+
+.details .upper-case{
+    background: none;
+    box-shadow: none;
+    border: none;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px;
+    font-family: 'Dosis', sans-serif;
+    font-size:large;
+    font-weight: 100;
+}
+
+.first .details button:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.first:nth-child(1) .details{
+    top: 40%;
+    left:1280px;
+    font-family: 'Dosis', sans-serif;
+    font-size:2rem;
+    font-weight: 200;
+}
+
+.first:nth-child(2) .details{
+    top: 40%;
+    left:700px;
+    font-family: 'Dosis', sans-serif;
+    font-size:2rem;
+    font-weight: 200;
+}
+.first:nth-child(3) .details{
+    top: 40%;
+    left: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size:2rem;
+    font-weight: 200;
+}
+
+

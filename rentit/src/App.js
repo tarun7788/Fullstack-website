@@ -1,20 +1,25 @@
 import React from 'react';
+import { Routes, Route} from 'react-router-dom'
 import Navbar from './Components/navbar.js'
-import Home from './Components/home.js'
-import Footer from './Components/footer.js'
-import Strip from './Components/strip.js'
-import Main from './Components/main.js'
+import Login from './Components/login.js'
+import Homepage from './Components/homepage.js';
 
 
-function App() {
+export default function App() {
+  var Component=<Homepage/>
+  const pathname = window.location.pathname;
+if(pathname==="/login"){
+  Component=<Login/>
+}
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <Strip />
-      <Footer />
-    </div>
+    <>
+    <Navbar/>
+    {Component}
+    <Routes> 
+          <Route path="/login" element={<Login />} />
+    </Routes>
+    </>
   );
 }
 
-export default App;
+
