@@ -13,9 +13,9 @@ const Navbar=()=>{
               < NavLink to="/"> Orders </NavLink>
             </div>
             <div>
-              < NavLink to="/"> SignUp </NavLink>
+              < NavLink to="/logout"> Logout </NavLink>
               <span> | </span>
-              <NavLink to="/login"> SignIn </NavLink>
+              <NavLink to="/login"> Login </NavLink>
               <span> | </span>
               < NavLink to="/"><FaCartPlus /></NavLink>
               <span> </span>
