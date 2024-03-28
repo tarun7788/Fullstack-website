@@ -9,6 +9,7 @@ const Login = () => {
     loginWithRedirect()}>
       Log In
       </button>;
+     
 };
 
 export default Login;
