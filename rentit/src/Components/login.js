@@ -1,16 +1,14 @@
 import React from "react";
-import '../CSS/login.css';
-import Navbar from "./navbar";
+import { useAuth0 } from "@auth0/auth0-react";
+
+const Login = () => {
+  const { loginWithRedirect } = useAuth0();
 
 
-const Login=()=>{
-    return(
-        <div>
-        <input placeholder=" Enter Your User Name ..."/>
-        <input placeholder=" Password "/>
-        <button type="Submit">Submit</button>
-    </div>
-    )
-    
-}
+  return <button onClick={() => 
+    loginWithRedirect()}>
+      Log In
+      </button>;
+};
+
 export default Login;
