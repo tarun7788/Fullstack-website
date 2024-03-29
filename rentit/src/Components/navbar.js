@@ -17,7 +17,7 @@ const Navbar=()=>{
               <Link to="/login"> SignIn </Link>
               <span> | </span>
               < Link to="/"><FaCartPlus /></Link>
-              <span> | </span>
+              <span> </span>
             </div>
             <div>
             < Link to='/'> <img src={require('../images/logo.png')} height={35}/></Link>

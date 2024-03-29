@@ -6,9 +6,7 @@ const Login = () => {
 
 
   return (
-    <button onClick={() =>loginWithRedirect()}>
-      Log In
-      </button>
+    loginWithRedirect()
       )
      
 };
