@@ -4,6 +4,7 @@ import Strip from "./strip";
 import Triplet from './triplet';
 
 
+
 export default function Homepage(){
     return(
         <>

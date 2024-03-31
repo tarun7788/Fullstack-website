@@ -1,0 +1,81 @@
+.text p{
+    background-color:rgb(58, 56, 51);
+    color: aliceblue;
+    height: 45%;
+    width:50%;
+    margin:10px;
+    border-radius: 10px;
+    margin-left: 350px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    margin-top: 3rem;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-left: 500px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgb(58, 56, 51) ;
+    .Contact-Us{
+        max-width: 500px;
+        margin: auto;
+        .contact-inputs{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            input[type="submit"]{
+            cursor: pointer;
+            transition: all 0.2s;
+            &:hover{
+                background-color: red;
+                transform: scale(1.1);
+                border-color: red;
+            }
+            
+            
+            }
+        }
+        
+    }
+}
+.a123456 h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 350px;
+    background-color:rgb(58, 56, 51);
+    color: aliceblue;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    width: 53%;
+    border-radius: 10px;    
+}
+.a068{
+    border-radius: 8px;
+    padding: 4px 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.b068{
+    border-radius: 8px;
+    padding: 4px 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.c068{
+    border-radius: 8px;
+    padding: 4px 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.d068{
+    border-radius: 8px;
+    padding: 4px 6px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 70px;
+    height: 40px;
+    margin-left: 200px;
+    
+}
