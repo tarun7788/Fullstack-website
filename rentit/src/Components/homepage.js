@@ -10,6 +10,7 @@ export default function Homepage(){
         <Home/>
         <Strip/>
         <Triplet/>
+        
         </>
     )
 }

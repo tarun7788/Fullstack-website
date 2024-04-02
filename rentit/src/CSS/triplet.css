@@ -24,7 +24,7 @@
     z-index:8;
     position: absolute;
 }
-.first .details img:hover{
+.first img:hover {
     cursor: pointer;
     background-color:rgba(245, 178, 178, 0.7) ;
 }
