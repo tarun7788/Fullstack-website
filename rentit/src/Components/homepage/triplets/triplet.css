@@ -24,11 +24,6 @@
     z-index:8;
     position: absolute;
 }
-.first img:hover {
-    cursor: pointer;
-    background-color:rgba(245, 178, 178, 0.7) ;
-}
-
 .details .upper-case{
     background: none;
     box-shadow: none;
@@ -42,6 +37,7 @@
 }
 
 .first .details button:hover{
+    cursor: pointer;
     color: #fff;
     border-bottom: 1px solid #fff;
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import Home from "./home";
-import Strip from "./strip";
-import Triplet from './triplet';
+import Home from "./home/home";
+import Strip from "./stripe/strip";
+import Triplet from './triplets/triplet';
 
 
 

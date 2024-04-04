@@ -1,5 +1,5 @@
 import React from 'react'
-import '../CSS/navbar.css';
+import './navbar.css';
 import { FaCartPlus } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ const Navbar=()=>{
               <span> </span>
             </div>
             <div>
-            < Link to='/'> <img src={require('../images/logo.png')} height={35}/></Link>
+            < Link to='/'> <img src={require('./logo.png')} height={35}/></Link>
             </div>
           </div>
       );
