@@ -1,4 +1,5 @@
 import React from 'react';
+import './app.css';
 import { Router } from 'react-router-dom';
 import { Route , Routes} from 'react-router-dom';
 import Navbar from './Components/navbar/navbar.js'
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <>
     <Navbar/>
+    <img id='poster' src={require('./2.webp')}/>
         <Routes>
           <Route index path="/" element={<Homepage />} />
           <Route path="login" element={<Login />}/>
