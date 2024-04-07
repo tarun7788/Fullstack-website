@@ -1,13 +1,28 @@
-#footer{
+.main5{
     background-color: rgb(58, 56, 51);
-    height: 300px;
+    height: 350px;
     width: 101.1%;
     margin-left: -8px;
     margin-top: -4px;
     margin-bottom: -8px;
     margin-top: 50px;
+    position: relative;
 }
-#footer img{
+.main5 img{
     margin-top: 100px;
     margin-left: 25%;
+}
+.main5 .listing{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -90px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    color:rgb(198, 228, 255);
+}
+
+.main5 .listing li{
+    list-style: none;
+    margin-left: -30px;
 }

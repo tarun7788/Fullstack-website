@@ -12,7 +12,7 @@ const Navbar=()=>{
               < Link to="/"> Orders </Link>
             </div>
             <div>
-              < Link to="/"> SignUp </Link>
+              < Link to="/"> Account </Link>
               <span> | </span>
               <Link to="/login"> SignIn </Link>
               <span> | </span>

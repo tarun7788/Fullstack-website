@@ -1,0 +1,48 @@
+.main1{
+   
+    background-image: url(./2.webp);
+    width: 101.1%;
+    height: 60vh;
+    background-position:top 70px center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: -8px;
+    margin-top: 100px;
+}
+.main1 .text1{
+    color:aliceblue;
+    margin-left: 210px;
+
+}
+.main1 .text1 h2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color:aliceblue;
+}
+.main1 .text1 h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    color:aliceblue;
+    margin-bottom: -20px;
+}
+
+.main1 .text1 button{
+    transition: 00.3s ease;
+    background-color: gainsboro;
+    color: #2a2a2a;
+    border: none;
+    width: 100px;
+    height: 45px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.main1 .text1 button:hover{
+    background-color:crimson ;
+    color: whitesmoke;
+}

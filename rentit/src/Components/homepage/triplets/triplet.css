@@ -8,14 +8,15 @@
     margin-left: -8px;
 }
 #one{
-    width: 517px;
+    width: 510px;
 }
-.first .details .images{
-    background-position: center center;
-    background-repeat:no-repeat ;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
+.Maintrip .first .images{
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.Maintrip .first img:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
 .first .details{
     top: 0;
@@ -43,7 +44,7 @@
 }
 .first:nth-child(1) .details{
     top: 40%;
-    left:1280px;
+    left:1282px;
     font-family: 'Dosis', sans-serif;
     font-size:2rem;
     font-weight: 200;
@@ -63,5 +64,13 @@
     font-size:2rem;
     font-weight: 200;
 }
+.first:nth-child(3) .images{
+margin-left: 7px;
+margin-right: -15px;
+}
+.first:nth-child(2) .images{
+margin-left: 4px;
+}
+            
 
 
