@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "netlify-cli": "^17.22.1",
     "react-router": "^6.21.3"
   }
 }
