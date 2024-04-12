@@ -1,5 +1,6 @@
 import  React from 'react'
 import './window.css';
+import { Link } from 'react-router-dom';
 
 export default function Window(){
     return(
@@ -9,7 +10,7 @@ export default function Window(){
         <h4>Season's sale</h4>
           <h2>  Rent a complete outfit <br/>
             and get 20% off</h2>
-            <button>SHOP NOW</button>
+            <Link to="/shop"> <button>Shop Now</button> </Link>
             </div>
         </div>
         </>

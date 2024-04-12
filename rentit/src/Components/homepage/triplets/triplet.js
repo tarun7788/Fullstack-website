@@ -1,5 +1,6 @@
 import React from "react";
 import './triplet.css';
+import { Link } from 'react-router-dom';
 
 
 function Triplet(){
@@ -9,21 +10,21 @@ function Triplet(){
                 <img id="one" className="images" src={require('./1.jpg')}/>
                 <div class="details">
                     <p>Accessories for All!!</p>
-                    <button class="upper-case">Shop Now</button>
+                    <Link to="/shop"> <button class="upper-case">Shop Now</button> </Link>
                 </div>
             </div>
             <div className="first">
                 <img id="one" className="images" src={require('./2.jpg')}/>
                 <div class="details">
                     <p>Esthetic Indian...</p>
-                    <button class="upper-case">Shop Now</button>
+                    <Link to="/shop"> <button class="upper-case">Shop Now</button> </Link>
                 </div>
             </div>
             <div className="first">
                 <img id="one" className="images" src={require('./3.jpg')}/>
                 <div class="details">
                    <p> Extreme Overwears!!</p>
-                    <button class="upper-case">Shop Now</button>
+                   <Link to="/shop"> <button class="upper-case">Shop Now</button> </Link>
                 </div>
             </div>
         </div>
