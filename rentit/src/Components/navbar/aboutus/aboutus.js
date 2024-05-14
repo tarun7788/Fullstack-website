@@ -6,10 +6,11 @@ import axios from 'axios'
 
 function Aboutus() {
   const [formData, setFormData] = useState({
-    name: ' ',
-    email: ' ',
-    message: ' '
+    name: '',
+    email: '',
+    message: ''
   });
+  const targetDb= 'db1';
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -21,7 +22,7 @@ function Aboutus() {
       const response = await fetch("http://localhost:5000/contactme", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ formData, targetDb }),
       });
       if (!response.ok) {
         throw new Error(`Network response was not ok. Status code: ${response.status}`);

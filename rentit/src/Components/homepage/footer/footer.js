@@ -10,10 +10,10 @@ function Footer(){
             <h5> Featured </h5>
             <ul>
                 <li><a href='#'> Men</a></li>
-                <li><a> Women</a></li>
-                <li><a> Kids </a></li>
-                <li><a> Accessories</a></li>
-                <li><a> Shoes</a></li> 
+                <li><a href='#'> Women</a></li>
+                <li><a href='#'> Kids </a></li>
+                <li><a href='#'> Accessories</a></li>
+                <li><a href='#'> Shoes</a></li> 
             </ul>
         </div>
         </div>

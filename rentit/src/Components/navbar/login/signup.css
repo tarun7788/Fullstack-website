@@ -1,0 +1,35 @@
+.signup1 input{
+    margin-left: 110px;
+    margin-top: 50px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    padding: 6px;
+}
+.signup1{
+    margin-left: 500px;
+    padding-top: 10px;
+    display: block;
+    background-color: rgb(244, 207, 215);
+    height: 500px;
+    width:500px;
+    border-radius: 10px;
+}
+.main-signup{
+    padding-top: 100px;
+}
+.main-signup .signup1 .input-block .submit{
+    margin-left: 200px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.main-signup .signup1 .input-block .submit:hover{
+    background-color: rgb(220, 20, 60);
+    color: azure;
+}
+.main-signup .signup1 .input-block h1{
+margin-left: 31%;
+color: rgb(179, 191, 202);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

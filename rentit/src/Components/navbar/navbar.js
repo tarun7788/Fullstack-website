@@ -14,7 +14,7 @@ const Navbar=()=>{
             <div>
               < Link to="/"> Account </Link>
               <span> | </span>
-              <Link to="/login"> SignIn </Link>
+              <Link to="/Signup"> SignIn </Link>
               <span> | </span>
               < Link to="/"><FaCartPlus /></Link>
               <span> </span>

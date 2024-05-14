@@ -9,6 +9,7 @@ import Footer from './Components/homepage/footer/footer.js';
 import AboutUs from './Components/navbar/aboutus/aboutus.js';
 import Shop from './Components/View/shop.js';
 import Cart from './Components/Cart/Cart.js'
+import  Signup from './Components/navbar/login/Signup.js'
 
 
 
@@ -18,7 +19,7 @@ export default function App() {
     <Navbar/>
         <Routes>
           <Route index path="/" element={<Homepage />} />
-          <Route path="login" element={<Login />}/>
+          <Route path="signup" element={<Signup />}/>
           <Route path="aboutus" element={<AboutUs />}/>
           <Route path="cart" element={<Cart />}/>
           <Route path="shop" element={<Shop />}/>
