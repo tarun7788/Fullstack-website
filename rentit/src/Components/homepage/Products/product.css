@@ -68,3 +68,27 @@
 .Main .one1:hover img{
     opacity: 0.8;
 }
+@media (max-width: 768px) {
+    .Main .boxes{
+        display:block;
+    }
+    .Main h3{
+        margin-left: 30%;
+    }
+    .Main p{
+        margin-left:5%;
+        text-align: center;
+    }
+    .Main hr{
+        margin-left:40%;
+    }
+    .Main .one1{
+        margin-left:30%;
+    }
+
+}
+@media (max-width: 400px) {
+    .Main .one1{
+        margin-left:20%;
+    }
+}

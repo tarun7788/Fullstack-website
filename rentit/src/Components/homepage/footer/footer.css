@@ -1,19 +1,19 @@
+
 .main5{
     background-color: rgb(58, 56, 51);
     height: 350px;
-    width: 101.1%;
-    margin-left: -8px;
-    margin-bottom: -8px;
+    width: 101.5%;
+    margin:-15px;
     margin-top: 50px;
     position: relative;
 }
 .main5 img{
     margin-top: 100px;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 .main5 .listing{
     position: absolute;
-    margin-left: 900px;
+    left:60%;
     margin-top: -90px;
     font-family: 'Dosis', sans-serif;
     font-size: 1.4rem;
@@ -24,4 +24,19 @@
 .main5 .listing li{
     list-style: none;
     margin-left: -30px;
+}
+
+@media (max-width: 450px) {
+    .main5 img{
+        display:none;
+    }
+    .main5 .listing{
+        margin-top:50px ;
+        left:50%;
+    }
+    .main5{
+        width: 104%;
+        margin-left:-8px;
+    }
+    
 }

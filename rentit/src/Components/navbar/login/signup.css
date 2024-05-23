@@ -10,8 +10,9 @@
     margin-left: 500px;
     padding-top: 10px;
     display: block;
-    background-color: rgb(244, 207, 215);
+    background-color: rgb(240, 89, 120);
     height: 500px;
+    opacity: 0.7;
     width:500px;
     border-radius: 10px;
 }

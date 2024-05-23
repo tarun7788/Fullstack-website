@@ -1,31 +1,43 @@
 
 .Maintrip{
-    display: flex;
-    position: relative;
+    display: flex;  
 }
-.first{
-    width:60%;
-    margin-left: -8px;
+#one{ 
+  position: relative;
 }
-#one{
-    width: 510px;
+.first img{
+    margin-left: 50px; 
 }
-.Maintrip .first .images{
-    cursor: pointer;
-    transition: 0.3s all;
+.second img{
+    margin-left:10px ;
+    margin-right:10px ;
 }
-.Maintrip .first img:hover{
-    opacity: 0.8;
-    cursor: pointer;
-}
-.first .details{
-    top: 0;
-    left: 0;
-    transition: 0.3s ease;
-    z-index:8;
+.details1{
     position: absolute;
+    top: 50%;
+    left: 20%;
 }
-.details .upper-case{
+.details2{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    
+}
+.details3{
+    position: absolute;
+    top: 43%;
+    left: 60%;
+}
+.Maintrip #one img:hover{
+    opacity: 0.8;
+    cursor: pointer;transition: 0.3s all;
+}
+#btn{
+    font-family: 'Dosis', sans-serif;
+    font-size:2rem;
+    font-weight: 200;
+}
+.upper-case{
     background: none;
     box-shadow: none;
     border: none;
@@ -35,42 +47,23 @@
     font-family: 'Dosis', sans-serif;
     font-size:large;
     font-weight: 100;
-}
-
-.first .details button:hover{
     cursor: pointer;
-    color: #fff;
-    border-bottom: 1px solid #fff;
 }
-.first:nth-child(1) .details{
-    top: 40%;
-    left:1282px;
-    font-family: 'Dosis', sans-serif;
-    font-size:2rem;
-    font-weight: 200;
+.upper-case:hover{
+    color: snow;
 }
 
-.first:nth-child(2) .details{
-    top: 40%;
-    left:700px;
-    font-family: 'Dosis', sans-serif;
-    font-size:2rem;
-    font-weight: 200;
-}
-.first:nth-child(3) .details{
-    top: 40%;
-    left: 10px;
-    font-family: 'Dosis', sans-serif;
-    font-size:2rem;
-    font-weight: 200;
-}
-.first:nth-child(3) .images{
-margin-left: 7px;
-margin-right: -15px;
-}
-.first:nth-child(2) .images{
-margin-left: 4px;
-}
-            
+@media (max-width: 768px) {
+    .Maintrip{
+        display:block;
+    }
+    #one img{
+        margin-left: -8px; 
+        margin-right: 0;
+        width: 104%;
+
+    }
+
+}      
 
 
