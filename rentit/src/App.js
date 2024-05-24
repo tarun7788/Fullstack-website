@@ -7,7 +7,7 @@ import Footer from './Components/homepage/footer/footer.js';
 import AboutUs from './Components/navbar/aboutus/aboutus.js';
 import Shop from './Components/View/shop.js';
 import Cart from './Components/Cart/Cart.js'
-import  Signup from './Components/navbar/login/Signup.js'
+import Signup from './Components/navbar/login/Signup.js'
 
 
 
