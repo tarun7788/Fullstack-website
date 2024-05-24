@@ -9,7 +9,11 @@ const app = express();
 const PORT = 5000;
 const uri1 = "mongodb+srv://tarunsaraswat77:Tarun77%40@cluster0.5yo78oj.mongodb.net/";
 
-let login=false;
+app.use(cors({ origin: 'https://rent-it-now.netlify.app/' }));  // Replace with your Netlify URL
+
+
+
+app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
 
 mongoose.connect(uri1, {
   useNewUrlParser: true,

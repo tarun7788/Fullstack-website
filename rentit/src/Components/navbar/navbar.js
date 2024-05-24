@@ -8,8 +8,6 @@ import { FaBars } from "react-icons/fa6";
 const Navbar=()=>{
       return (
         <div className='navbar' id='myTopnav'>
-
-
           <div className='icon'>
           <div className="dropdown">
               <button className="dropbtn"><FaBars /></button>

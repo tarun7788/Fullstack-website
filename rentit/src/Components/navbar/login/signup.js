@@ -3,7 +3,7 @@ import  React , { useState } from 'react'
 import './signup.css';
 
 
-export default function SignUp(){
+function SignUp(){
     const [formData, setFormData] = useState({
         name:'',
         email:'',
@@ -50,3 +50,4 @@ export default function SignUp(){
         </div>
     )
 };
+export default SignUp;
