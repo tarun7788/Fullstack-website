@@ -11,8 +11,6 @@ const uri1 = "mongodb+srv://tarunsaraswat77:Tarun77%40@cluster0.5yo78oj.mongodb.
 
 let login=false;
 
-
-
 mongoose.connect(uri1, {
   useNewUrlParser: true,
   useUnifiedTopology: true
@@ -21,7 +19,6 @@ mongoose.connect(uri1, {
 }).catch((error) => {
   console.error('Error connecting to MongoDB:', error);
 });
-
 app.use(cors());
 app.use(bodyParser.json());
 
