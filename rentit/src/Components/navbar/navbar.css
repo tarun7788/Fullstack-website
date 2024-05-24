@@ -37,7 +37,7 @@
     margin-top: -15px;
   }
   
-  /* The container <div> - needed to position the dropdown content */
+  
   .dropdown {
     position: relative;
     display: inline-block;
@@ -47,7 +47,7 @@
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -73,7 +73,7 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
-  /* Links inside the dropdown */
+  
     .dropdown-content a {
     color: grey;
     padding: 12px 16px;
@@ -86,14 +86,43 @@
         text-decoration: none;
         display: flexbox;
         }
-  /* Change color of dropdown links on hover */
+        .navbar .icon {
+          display: none;
+          font-size: xx-large;
+          margin-top: 4px;
+        }
+  
     .dropdown-content Link:hover {background-color: #ddd;}
-  /* Show the dropdown menu on hover */
+  
     .dropdown:hover .dropdown-content {display: flex;
     flex-direction: column;}
     .dropdown-access:hover .access-content {display: flex;
         flex-direction: column;}
   
     @media (max-width: 768px) {
+  .navbar .one {display: none;}
+  .navbar .two {display: none;}
+
+  .navbar .icon {
+    float: left;
+    display: block;
+  }
+  
+  
+    }
+    @media  (max-width: 768px) {
+      .navbar.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
       
+      .dropdown button:hover{
+        color: rgb(220, 20, 60);
+      }
     }

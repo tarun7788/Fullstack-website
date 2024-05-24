@@ -2,7 +2,7 @@
 .Maintrip{
     display: flex;  
 }
-#one{ 
+#one1{ 
   position: relative;
 }
 .first img{
@@ -16,6 +16,9 @@
     position: absolute;
     top: 50%;
     left: 20%;
+    font-family: 'Dosis', sans-serif;
+    font-size:xx-large;
+    font-weight: 100;
 }
 .details2{
     position: absolute;
@@ -28,7 +31,7 @@
     top: 43%;
     left: 60%;
 }
-.Maintrip #one img:hover{
+.Maintrip #one1 img:hover{
     opacity: 0.8;
     cursor: pointer;transition: 0.3s all;
 }
@@ -57,7 +60,7 @@
     .Maintrip{
         display:block;
     }
-    #one img{
+    #one1 img{
         margin-left: -8px; 
         margin-right: 0;
         width: 104%;
