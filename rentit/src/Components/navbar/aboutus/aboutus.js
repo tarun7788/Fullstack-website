@@ -1,28 +1,23 @@
 import  React , { useState } from 'react'
 import './Aboutus.css';
-import axios from 'axios'
-
-
 
 function Aboutus() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
+    name:'',
+    email:'',
+    message:'',
   });
-  const targetDb= 'db1';
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/contactme", {
+      const response = await fetch("http://localhost:5000/aboutus", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ formData, targetDb }),
+        body: JSON.stringify({formData}),
       });
       if (!response.ok) {
         throw new Error(`Network response was not ok. Status code: ${response.status}`);
@@ -59,8 +54,8 @@ responsible attitude to clothing.
     <div className='Contact-Us'>
         <form onSubmit={handleSubmit} className='contact-inputs'>
             <input className='a068' type="text" name="name" value={formData.name} onChange={handleChange} placeholder='Name' required />
-            <input className='b068'type="email" name="email" value={formData.email} onChange={handleChange} placeholder='email' required />
-            <textarea className='c068'  cols="30"  rows="6"  type="text" name="message" value={formData.message} onChange={handleChange} placeholder='Type your message here...' required></textarea>
+            <input className='b068'type="email" name="email" value={formData.email} onChange={handleChange} placeholder='email' required  unique/>
+            <textarea className='c068'  cols="30"  rows="6"  type="text" name="message" value={formData.message} onChange={handleChange} placeholder='Type your message here...'/>
             <input className='d068' type='submit' value='send'/>
         </form>
 

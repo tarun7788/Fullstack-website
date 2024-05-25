@@ -3,16 +3,15 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const User = require('./models/user');
 const cors = require('cors');
+const dotenv = require('dotenv');
+dotenv.config();
 
 
 const app = express();
-const PORT = 5000;
-const uri1 = "mongodb+srv://tarunsaraswat77:Tarun77%40@cluster0.5yo78oj.mongodb.net/";
+const PORT=process.env.PORT;
+const URL =process.env.URL;
 
-app.use(cors({ origin: 'https://rent-it-now.netlify.app/' })); 
-
-
-mongoose.connect(uri1, {
+mongoose.connect(URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
@@ -22,14 +21,11 @@ mongoose.connect(uri1, {
 });
 app.use(cors());
 app.use(bodyParser.json());
-
-app.post('/contactme', async (req, res) => {
-  console.log(req.body)
+app.post('/aboutus', async (req, res) => {
+  console.log('Received data:', req.body);
   try {
-    const data = await req.body;
-    const {name, email, message} = data;
+    const { name, email, message} = req.body.formData;
     const newUser = new User({ name, email, message });
-
     await newUser.save();
     res.status(200).json({ message: 'User registered successfully' });
   } catch (error) {
