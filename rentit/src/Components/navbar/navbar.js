@@ -32,9 +32,9 @@ const Navbar=()=>{
                             <div className="dropdown-access">
                             <Link to="/"><a className='access'>Accessory</a></Link>
                             <div className="access-content">
-                            < Link to="/"><a>Login</a></Link>
-                            < Link to="/"><a>Logout</a></Link>
-                            < Link to="/"><a>Account</a></Link>
+                            < Link to="/"><a>Bags</a></Link>
+                            < Link to="/"><a>Glasses</a></Link>
+                            < Link to="/"><a>Jewellery</a></Link>
                             </div>
                             </div>
                             <Link to="/"><a>Shoes</a></Link>
