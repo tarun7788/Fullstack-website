@@ -1,9 +1,8 @@
 import react from 'react'
 import  React , { useState } from 'react'
-import './signup.css';
+import './login.css';
 
-
-function SignUp(){
+function Login(){
     const [formData, setFormData] = useState({
         name:'',
         email:'',
@@ -18,7 +17,7 @@ function SignUp(){
       const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-          const response = await fetch("https://fullstack-website-1.onrender.com/register", {
+          const response = await fetch("https://fullstack-website-1.onrender.com/login", {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ formData}),
@@ -50,4 +49,4 @@ function SignUp(){
         </div>
     )
 };
-export default SignUp;
+export default Login;
